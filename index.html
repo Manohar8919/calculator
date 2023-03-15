@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Beach_blog</title>
+      <style>
+        #maindiv{
+            background-color: aqua;
+            width: 100%;
+            height: 600px;
+            overflow: scroll;
+            
+        }
+        #vid{
+            width: 100%;
+            height: 500px;
+        }
+        #vid:hover{
+            width: 90%;
+            height: 450px;
+        }
+        h1{
+            position: absolute;
+            margin-left: 20%;
+            margin-top: 250px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 50px;
+            color:red;
+            word-spacing: 20px;
+            letter-spacing: 20px;
+            text-shadow: 5px 5px 5px yellow;
+        }
+        #nav{
+            background-color:lightcoral;
+            width: 100%;
+            height: 60px;
+            position: sticky;
+            top: 0px;
+        }
+        #ul{
+            display: flex;
+            margin-left: 60%;
+            list-style: none;
+            word-spacing: 5px;
+            
+        }
+        .ll{
+            width: 90px;
+            text-transform: uppercase;
+            font-size: large;
+            
+        }
+        #manu{
+            display: block;
+            color: red;
+        }
+        #manu{
+            display: none;
+        }
+        #man:hover #manu{
+            display: block;
+            background-color: yellow;
+            
+        }#ab{
+            width: 100%;
+            height: 100px;
+            background-color: darkslategrey;
+        }
+      </style>
+</head>
+<body>
+     <h1>Beach Nature view</h1>
+    <div id="maindiv">
+       <div id="nav"> Navbar
+        <div>
+            <ul id="ul">
+                <li class="ll">Menu</li>
+                <li class="ll" id="man">About
+                    <ul id="manu">
+                        <li> Manohar</li>
+                        <li>Murali</li>
+                        <li>mukesh</li>
+                        <li>Rama Naidu</li>
+                    </ul>
+                </li>
+                <li class="ll">More</li>
+            </ul>
+        </div>
+       </div>
+    <video  id="vid " src="./beach_video.mp4" autoplay muted loop ></video>
+    </div>
+    <div id="ab">
+        <h3>About us</h3>
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    
+</body>
+</html>
